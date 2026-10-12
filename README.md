@@ -1,5 +1,9 @@
 # Customer Churn Predictor
 
+## 🚀 Live Demo
+
+**Try the application:** [Customer Churn Predictor] https://customer-churn-predictor-sushanthcd.streamlit.app/
+
 An end-to-end Machine Learning project that predicts whether a
 telecom customer is likely to leave the service.
 
