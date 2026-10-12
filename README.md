@@ -71,13 +71,15 @@ that more customers who do not churn may be flagged.
 
 ```text
 Customer Churn Predictor/
-├── app.py
-├── customer_churn_model.pkl
-├── requirements.txt
-├── README.md
+├── customer-churn-predictor/    # Nested folder shown in VS Code
+├── notebooks/
+│   └── churn_analysis.ipynb
 ├── .gitignore
-└── notebooks/
-    └── churn_analysis.ipynb
+├── app.py
+├── Customer_Churn_Dataset.xlsx  # Local dataset; excluded from GitHub
+├── customer_churn_model.pkl
+├── README.md
+└── requirements.txt
 ```
 
 ## Run Locally
@@ -85,14 +87,12 @@ Customer Churn Predictor/
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-```
+git clone https://github.com/Sushanth-CD/customer-churn-predictor.git```
 
 ### 2. Enter the project directory
 
 ```bash
-cd "Customer Churn Predictor"
-```
+cd customer-churn-predictor```
 
 ### 3. Install dependencies
 
